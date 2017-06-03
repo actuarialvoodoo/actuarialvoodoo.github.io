@@ -1,0 +1,17 @@
+---
+date: 2017-05-30T22:02:54-04:00
+title: "Hello World"
+type: "post"
+author: Ryan Thomas
+image: "blog/name-tag1.jpg"
+showimageonly: true
+draft: false
+---
+
+Hello World!!
+<!--more-->
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(disp, mpg, color = cyl)) + geom_point()
+```
+
