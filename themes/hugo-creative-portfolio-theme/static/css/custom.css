@@ -1,5 +1,6 @@
 /* your styles go here */
 #amber-btn {
+  float: right;
   font-weight: 700;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -9,4 +10,8 @@
   line-height: 1.42857143;
   border-radius: 0;
   border: 1px solid #e01557;
+}
+
+#inline-p p{
+  display: inline;
 }

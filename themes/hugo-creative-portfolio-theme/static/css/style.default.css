@@ -27,6 +27,19 @@ section {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+
+
+#blog-listing-medium .post .author-category {
+	  float: left;
+	  color: #999999;
+	  text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+	  letter-spacing: 0.08em;
+	}
+	#blog-listing-medium .post .author-category a {
+  font-weight: 500;
+	}
 section.background-gray-lighter {
   background: #cdcdcd;
 }
@@ -56,7 +69,7 @@ section.background-secondary {
 }
 @media (min-width: 768px) {
   #blog-listing-medium .post .date-comments {
-    text-align: right;
+    display: inline-block;
   }
 }
 
